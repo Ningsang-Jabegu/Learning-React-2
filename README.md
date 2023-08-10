@@ -72,6 +72,7 @@ The project was initiated using the following steps:
    ```terminal
       npm run build
    ```
+This command will create the build file, now to host the site build file need to be uploaded. In my case I use netlify, so I directly upload build file, and that will deploy the website/page.
 5.    **Usage**: The project is designed to illustrate the core concepts of React, making it an excellent resource for React beginners. By exploring the project's source code, learners can gain insights into:
 
    - familiarize with the jsx syntax
