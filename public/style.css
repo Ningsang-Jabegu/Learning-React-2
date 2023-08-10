@@ -115,10 +115,12 @@ button.btn {
 }
 .btn-wrapper {
   display: flex;
-  width: calc(100% - 20px);
+  width: calc(100% - 40px);
   gap: 10px;
   margin-right: 20px;
-}.btn-wrapper a{
+  margin-left: 20px;
+}
+.btn-wrapper a{
   width: 100%;
   text-decoration: none;
 }
@@ -134,11 +136,12 @@ button.btn {
   background: #0e597b;
 }
 .desc{
-  margin: 20px 0 0 -20px;
+  margin: 20px 0;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: calc(100% - 40px);
+  padding: 0 20px;
+  width: 100%;
 }
 .desc h3 {
   color: #46a4d4;
