@@ -1,6 +1,6 @@
-# React Project 1 Documentation
+# React Project 2 Documentation
 
-<img src="https://github.com/Ningsang-Jabegu/Learning-React-1/blob/main/Screenshot%20without%20hover.png" alt="Project Screenshots" height="400">
+<img src="https://github.com/Ningsang-Jabegu/Learning-React-2/blob/main/screenshot%20of%20page.png" alt="Project Screenshots" height="400">
 
 
 ## Overview
@@ -25,27 +25,29 @@ The project was initiated using the following steps:
    npx create-react-app react-project-1
 2. **Folder Structure Adjusted**: The project adheres to a specific folder structure for organization and maintainability. (build folder is what actually renders in the browser)
    ```terminal
-   ├── build
-       ├── static
-         ├── js
-            ├── main.3284944c.js
-            ├── main.3284944.js.LICENCE.txt
-            ├── main.3284944c.js.map
-         ├── asset-manifest.json
-         ├── index.css
-         ├── index.html
-         ├── manifest.json
-         ├── robots.txt
    ├── public
-      ├── index.css
+      ├── favicon.ico
       ├── index.html
       ├── manifest.json
       ├── robots.txt
+      ├── style.css
    └── src
-      ├── .gitignore
-      ├── README.md
-      ├── package-lock.json
-      ├── package.json
+      ├── Component
+         ├── BtnIcon.js
+         ├── Button.js
+         ├── Card.js
+         ├── Description.js
+         ├── Head.js
+         ├── Intro.js
+         ├── Social.js
+      ├── Images
+         ├── Ningsang_Jabegu.jpg
+      ├── App.js
+      ├── index.js
+   ├── README.md
+   ├── package-lock.json
+   ├── package.json
+   ├── screenshot of page.png
    
 3.**Initializing and pushing Git**: For the documentation purposes this project is uploaded into the github
    ```terminal
@@ -69,6 +71,7 @@ The project was initiated using the following steps:
 4.  **Usage**: The project is designed to illustrate the core concepts of React, making it an excellent resource for React beginners. By exploring the project's source code, learners can gain insights into:
 
    - familiarize with the jsx syntax
+   - Adding Components and using it
    - Deployment of React applications
 5. **Contributing**: This project is intended as a learning exercise and is not actively seeking contributions. However, suggestions and feedback are always welcome.
 6. **License**: This project is licensed under the MIT License.
