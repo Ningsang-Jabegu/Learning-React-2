@@ -1,15 +1,15 @@
-# React Project 2 Documentation
+# React Project 2 Documentation (Digital Business Card)
 
 <img src="https://github.com/Ningsang-Jabegu/Learning-React-2/blob/main/screenshot%20of%20page.png" alt="Project Screenshots" height="400">
 
 
 ## Overview
 
-This documentation provides an insight into **React Project 1**, a simple project developed for learning purposes using the React library. The project aims to demonstrate fundamental concepts of React and is intended for educational purposes. Project 1 from (<a href="https://scrimba.com/learn/learnreact" target="_blank">https://scrimba.com/learn/learnreact</a>)
+This documentation provides an insight into **React Project 2**, a simple project developed for learning purposes using the React library. The project aims to demonstrate fundamental concepts of React (components) and is intended for educational purposes. Project 2 (Solo Project) from (<a href="https://scrimba.com/learn/learnreact" target="_blank">https://scrimba.com/learn/learnreact</a>)
 
 ## Project Description
 
-**React Project 1** serves as a practical exploration of React's core principles and features. The project showcases the creation of a web application using React, allowing learners to grasp essential concepts in a hands-on manner.
+**React Project 2** serves as a practical exploration of React's core principles and features. The project showcases the creation of a web application using React, allowing learners to grasp essential concepts in a hands-on manner.
 
 ## Deployment
 
@@ -68,7 +68,11 @@ The project was initiated using the following steps:
 
    + After this your project files will be upload into your github repo. and every time you want to changes the file in your system, you can only use the 3 line (above second code) code to push your updated file. Add something that describes your change in the second line of the code inside the "...".
    
-4.  **Usage**: The project is designed to illustrate the core concepts of React, making it an excellent resource for React beginners. By exploring the project's source code, learners can gain insights into:
+4.**Building React for the deployment**: Our browsers only supports the pure html, css, and js. With the following command react will transpile (convert) all the react file into the browser executable file (i.e. pure html, css, js)
+   ```terminal
+      npm run build
+   ```
+5.    **Usage**: The project is designed to illustrate the core concepts of React, making it an excellent resource for React beginners. By exploring the project's source code, learners can gain insights into:
 
    - familiarize with the jsx syntax
    - Adding Components and using it
